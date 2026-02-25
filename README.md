@@ -33,6 +33,7 @@ env\Scripts\activate (Activation)
 (env) (You will See After Activate)
 pip install django
 python manage.py runserver
+```
 
 # 📁 Project (Learning)
 
