@@ -20,10 +20,19 @@ This project is developed for **Software Engineering Sessional Course**.
 - VS Code Installed
 - git bash Installed
 - Django Installed using pip
-## Command Used(Run in Git-Bash)
-  -python -m venv env (creating env)
-  -env\Scripts\activate (for activating env)
-  -pip install django
-  -python manage.py runserver (http://127.0.0.1:8000/)
+# Django Project Setup & Running Guide
+
+This document explains how to create a virtual environment, install Django, and run the development server.
+
+---
+## 🚀 Steps Used (Git Bash)
+### 1️⃣ Create Virtual Environment
+```bash
+python -m venv env
+env\Scripts\activate (Activation)
+(env) (You will See After Activate)
+pip install django
+python manage.py runserver
+
 ## 📁 Project(Learning)
 - [DjangoFrameWorkLearning](./DjangoFrameWorkLearning)
