@@ -20,3 +20,5 @@ This project is developed for **Software Engineering Sessional Course**.
 - VS Code Installed
 - git bash Installed
 - Django Installed using pip
+## Project Structure
+   ./DjangoFrameWorkLearning
