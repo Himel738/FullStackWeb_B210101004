@@ -34,5 +34,6 @@ env\Scripts\activate (Activation)
 pip install django
 python manage.py runserver
 
-## 📁 Project(Learning)
+# 📁 Project (Learning)
+
 - [DjangoFrameWorkLearning](./DjangoFrameWorkLearning)
