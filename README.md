@@ -20,5 +20,10 @@ This project is developed for **Software Engineering Sessional Course**.
 - VS Code Installed
 - git bash Installed
 - Django Installed using pip
-## 📁 Learning
+## Command Used(Run in Git-Bash)
+  -python -m venv env (creating env)
+  -env\Scripts\activate (for activating env)
+  -pip install django
+  -python manage.py runserver (http://127.0.0.1:8000/)
+## 📁 Project(Learning)
 - [DjangoFrameWorkLearning](./DjangoFrameWorkLearning)
