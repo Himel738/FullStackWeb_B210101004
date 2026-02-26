@@ -48,5 +48,5 @@ python manage.py runserver
 - Django Template  
 - Bootstrap Integration
 # Created:
-[views.py](./views.py)
-[templates](./templates)
+- [views.py](./views.py)
+- [templates](./templates)
