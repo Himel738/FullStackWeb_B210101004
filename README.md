@@ -25,8 +25,8 @@ This project is developed for **Software Engineering Sessional Course**.
 This document explains how to create a virtual environment, install Django, and run the development server.
 
 ---
-## 🚀 Steps Used (Git Bash)
-### 1️⃣ Create Virtual Environment
+##  Steps Used (Git Bash)
+###  Create Virtual Environment
 ```bash
 python -m venv env
 env\Scripts\activate (Activation)
@@ -38,3 +38,15 @@ python manage.py runserver
 # 📁 Project (Learning)
 
 - [DjangoFrameWorkLearning](./DjangoFrameWorkLearning)
+
+## 📅 Day - 02 Progress
+
+###  Topics Learned
+- Django Settings Explained  
+- How Django Works  
+- URL & HttpResponse  
+- Django Template  
+- Bootstrap Integration
+# Created:
+[views.py](./views.py)
+[templates](./templates)
