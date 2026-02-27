@@ -50,3 +50,24 @@ python manage.py runserver
 # Created:
 - [views.py](./views.py)
 - [templates](./templates)
+## 📅 Day - 03 Progress
+
+### ✅ Topics Learned
+- Static Files in Django
+- STATIC_URL, STATIC_ROOT & STATICFILES_DIRS
+- Loading Static Files in Templates (`{% load static %}`)
+- Introduction to HTML
+- Basic HTML Structure
+- Introduction to CSS
+- Linking CSS with Django Templates
+- Button Design With CSS
+
+### 🛠️ Practice Work
+- Created static folder
+- Added CSS file in Django project
+- Connected HTML template with CSS styling
+- Tested static file configuration
+- [static](./static)
+## For HTML-CSS Practice(Practice Work)
+-[html-css-course](./html-css-course)
+
