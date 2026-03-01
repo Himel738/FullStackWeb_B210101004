@@ -79,7 +79,7 @@ python manage.py runserver
 - Shadow
 - [html-css-course](./html-css-course)
   
-## 📅 Day-03 Progress
+## 📅 Day-04 Progress
 ### ✅ Topics Practiced
 - Chrome Dev Tools
 - CSS Box Model
