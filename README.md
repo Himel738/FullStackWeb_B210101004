@@ -77,6 +77,12 @@ python manage.py runserver
 - CSS Hover Effects
 - CSS Transitions
 - Shadow
-- -[html-css-course](./html-css-course)
+- [html-css-course](./html-css-course)
+  
+## 📅 Day-03 Progress
+### ✅ Topics Practiced
+- Chrome Dev Tools
+- CSS Box Model
+- [html-css-course](./html-css-course)
 
 
