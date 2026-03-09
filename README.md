@@ -85,4 +85,13 @@ python manage.py runserver
 - CSS Box Model
 - [html-css-course](./html-css-course)
 
+# 📅 Day-06 Progress
+
+This is my practice project using HTML and CSS.
+
+## Practiced
+![Website Preview](images/preview.png)
+
+
+
 
