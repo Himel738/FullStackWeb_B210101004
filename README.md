@@ -71,7 +71,7 @@ python manage.py runserver
 ## For HTML-CSS Practice(Practice Work)
 -[html-css-course](./html-css-course)
 
-## 📅 Day - 03 Progress
+## 📅 Day - 04 Progress
 
 ### ✅ Topics Practiced
 - CSS Hover Effects
@@ -79,7 +79,7 @@ python manage.py runserver
 - Shadow
 - [html-css-course](./html-css-course)
   
-## 📅 Day-04 Progress
+## 📅 Day-05 Progress
 ### ✅ Topics Practiced
 - Chrome Dev Tools
 - CSS Box Model
