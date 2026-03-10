@@ -1,80 +1,26 @@
-<style>
-  .subscribe-button{   /* Start with dot means indicating Class*/
-    background-color: rgb(200, 0, 0);
-    color: white;
-    border: none;
-    height: 36px;
-    width: 105px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    transition: opacity 0.15s; /*  line for the hover opacity..second one is how time it will take */
-    vertical-align: top; /* on the top will allign with other button...not based on text base */
-  }
+<!DOCTYPE html>
+<html lang="en">
 
-  .subscribe-button:hover{         /* Hover Effect*/
-      /* background-color: green; */
-      opacity: 0.8;  /* value between 0 and 1...1 means normal the more reduces it will lighter */
-  }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ButtonDesign</title>
+  <link rel="stylesheet" href="styles/buttons.css">
+</head>
 
-  .subscribe-button:active{   /* when we will press tghe change will effect*/
-    /* background-color: blue; */
-    opacity: 0.5;
-  }
-
-  .join-button{
-
-    background-color: white;
-    color: blue;
-    border-color: blue;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 2px;
-    cursor: pointer;
-    
-    
-    transition: background-color 0.15s,color 0.15s;  /* Also for Text ... And remeber put transition on base css style*/
-  
-    padding: 30px 16px; /* first value for top and bottom and second value for left and right */
-  }
-
-  .join-button:hover{
-      background-color: blue;
-      color: white;
-  }
-
-  .join-button:active{
-    opacity: 0.7;
-  }
-
-  .tweet-button{
-    transition: background-color 0.15s, color 0.15s, padding 0.15s; /* Also for text. Put transition on base style */
-    background-color: rgb(2, 158, 255);
-    color: white;
-    border: none;
-    height: 36px; /* if we didn't give height and width it will take place automatically */
-    width: 74px;
-    border-radius: 18px;
-    font-weight: bold;
-      padding: 12px 16px; /* change padding on hover so it can animate */
-    font-size: 15px;
-    cursor: pointer;
-    transition: box-shadow 0.15s;
-  }
-  .tweet-button:hover{
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.15); /* Fits value - horizontal , second valur for - vertical, third value - blur, in rgba the 'a' means opacity */
-  }
-
-</style>
-
-<button class="subscribe-button">  <!-- Class are identifying Level-->
+<body>
+  <button class="subscribe-button"> <!-- Class are identifying Level-->
     SUBSCRIBE
-</button>
+  </button>
 
-<button class = "join-button">
-    JOIN My Channel
-</button>
+  <button class="join-button">
+    JOIN
+  </button>
 
-<button class = "tweet-button">
+  <button class="tweet-button">
     Tweet
-</button>
+  </button>
+
+</body>
+
+</html>
