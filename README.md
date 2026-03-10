@@ -90,7 +90,7 @@ python manage.py runserver
 This is my practice project using HTML and CSS.
 
 ## Practiced
-![Website Preview](images/preview.png)
+![Website Preview](html-css-course/preview.png)
 
 
 
