@@ -115,7 +115,7 @@ Today I learned the basic structure of an HTML webpage and how different parts o
 ```
 
 * **Title Tag**
- 
+
 * **Live Server**
   Used the Live Server extension to automatically run and preview the website in the browser.
 * **Linking CSS File**
