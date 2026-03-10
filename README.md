@@ -100,8 +100,10 @@ Today I learned the basic structure of an HTML webpage and how different parts o
 
 * **HTML Structure**
   Learned the basic structure of an HTML document including:
-  ```
-  <!DOCTYPE html>
+  Learned the basic structure of an HTML document including:
+
+```html
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -109,7 +111,7 @@ Today I learned the basic structure of an HTML webpage and how different parts o
   <title>Document</title>
 </head>
 <body>
-  
+
 </body>
 </html>
 ```
