@@ -92,6 +92,46 @@ This is my practice project using HTML and CSS.
 ## Practiced
 ![Website Preview](html-css-course/preview.png)
 
+# Day 07 – HTML Structure & Basic Webpage Setup
+
+Today I learned the basic structure of an HTML webpage and how different parts of a website are organized. I practiced creating a simple webpage and connecting it with CSS for styling.
+
+## Topics I Learned
+
+* **HTML Structure**
+  Learned the basic structure of an HTML document including:
+  Learned the basic structure of an HTML document including:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+```
+
+* **Title Tag**
+
+* **Live Server**
+  Used the Live Server extension to automatically run and preview the website in the browser.
+* **Linking CSS File**
+  Learned how to connect an external CSS file to HTML using:
+
+  ```html
+  <link rel="stylesheet" href="styles/text.css">
+  ```
+
+* **Adding New Fonts**
+  Learned how to change the font of text using the `font-family` property in CSS.
+
+
+
 
 
 
