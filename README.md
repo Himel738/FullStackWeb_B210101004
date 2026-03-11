@@ -90,7 +90,7 @@ python manage.py runserver
 This is my practice project using HTML and CSS.
 
 ## Practiced
-![Website Preview](html-css-course/preview.png)
+![Website Preview](html-css-course/intro-to-html/preview.png)
 
 # Day 07 – HTML Structure & Basic Webpage Setup
 
