@@ -175,6 +175,38 @@ Today I practiced some important HTML and CSS concepts related to layout and ele
 ## Practices(YouTube Design)
 -![YouTube](html-css-course/youtubepractice.png)
 
+## Day - 09 Progress 🚀
+
+Today I practiced **CSS Flexbox** and **CSS Grid**, which are powerful layout systems used to create responsive and structured web designs.
+
+### 📌 Topics Covered
+
+* **CSS Flexbox**
+
+  * `display: flex`
+  * `flex-direction`
+  * `justify-content`
+  * `align-items`
+  * `flex-wrap`
+
+* **CSS Grid**
+
+  * `display: grid`
+  * `grid-template-columns`
+  * `grid-template-rows`
+  * `gap`
+  * `grid-column` and `grid-row`
+
+### 💡 What I Learned
+
+* How to align and distribute items using **Flexbox**.
+* How to build **two-dimensional layouts** using **CSS Grid**.
+* The difference between **one-dimensional (Flexbox)** and **two-dimensional (Grid)** layout systems.
+* How these techniques help create **responsive web page layouts**.
+
+### 🛠 Practice
+
+-![YouTube](html-css-course/YouTube.png)
 
 
 
