@@ -130,6 +130,50 @@ Today I learned the basic structure of an HTML webpage and how different parts o
 * **Adding New Fonts**
   Learned how to change the font of text using the `font-family` property in CSS.
 
+  
+# Day - 08 , Practice: Images, Text Boxes, CSS Display & Layout
+
+## 📚 Topics Practiced Today
+
+Today I practiced some important HTML and CSS concepts related to layout and elements.
+
+### 1️⃣ Images and Text Boxes
+
+* Learned how to insert images using the `<img>` tag.
+* Practiced controlling image size using `width` and `height`.
+* Used text boxes with the `<input type="text">` element.
+* Styled input fields using CSS.
+
+### 2️⃣ CSS Display Property
+
+* Learned about different `display` values:
+
+  * `block`
+  * `inline`
+  * `inline-block`
+  * `none`
+* Understood how these properties control how elements appear on the webpage.
+
+### 3️⃣ The DIV Element
+
+* Practiced using the `<div>` element to group HTML elements.
+* Used `<div>` to structure different sections of a webpage.
+* Applied CSS styling to `div` containers.
+
+### 4️⃣ Nested Layout Technique
+
+* Learned how to place `div` elements inside other `div` elements.
+* Used nested layouts to organize page structure.
+* Practiced building simple layouts using nested containers.
+* ![NestedTechnique](html-css-course/NestedTechnique.png)
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+
+## Practices(YouTube Design)
+-![YouTube](html-css-course/youtubepractice.png)
 
 
 
