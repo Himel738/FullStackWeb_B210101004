@@ -5,7 +5,8 @@ This project is developed for **Software Engineering Sessional Course**.
 ---
 <details>
 <summary>Week 1</summary>
-## 📅 Day - 01 Progress
+  
+### 📅 Day - 01 Progress
 
 ### ✅ Topics Learned
 - Introduction to Full Stack Web Development
