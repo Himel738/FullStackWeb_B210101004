@@ -296,7 +296,7 @@ CSS Grid
 
 ---
 
-🔹 Day 03
+### 🔹 Day 03
 <details> <summary>View Details</summary>
 
 Today I practiced Nested Flexbox and built a YouTube Header layout.
