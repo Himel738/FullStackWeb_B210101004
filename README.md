@@ -294,6 +294,8 @@ CSS Grid
 
 </details>
 
+---
+
 🔹 Day 03
 <details> <summary>View Details</summary>
 
@@ -319,4 +321,3 @@ Structured the header using Nested Flexbox
 ![YouTube](html-css-course/nested.png)
 
 </details>
----
