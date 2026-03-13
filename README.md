@@ -218,7 +218,7 @@ Learned how to change the font of text using the `font-family` property in CSS.
 
 # 📅 Week 2
 
-### 🔹 Day 08
+### 🔹 Day 01
 
 <details>
 <summary>View Details</summary>
@@ -264,7 +264,7 @@ Today I practiced some important HTML and CSS concepts related to layout and ele
 
 ---
 
-### 🔹 Day 09
+### 🔹 Day 02
 
 <details>
 <summary>View Details</summary>
