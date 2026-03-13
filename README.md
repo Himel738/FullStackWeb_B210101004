@@ -6,7 +6,9 @@ This project is developed for **Software Engineering Sessional Course**.
 <details>
 <summary>Week 1</summary>
   
-### 📅 Day - 01 Progress
+<details>
+  
+<summary>  ### 📅 Day - 01 Progress </summary>
 
 ### ✅ Topics Learned
 - Introduction to Full Stack Web Development
@@ -41,7 +43,11 @@ python manage.py runserver
 
 - [DjangoFrameWorkLearning](./DjangoFrameWorkLearning)
 
-## 📅 Day - 02 Progress
+</details>
+
+<details>
+
+<summary> ## 📅 Day - 02 Progress </summary>
 
 ###  Topics Learned
 - Django Settings Explained  
@@ -52,7 +58,11 @@ python manage.py runserver
 # Created:
 - [views.py](./views.py)
 - [templates](./templates)
-## 📅 Day - 03 Progress
+</details>
+
+<details>  
+  
+<summary>## 📅 Day - 03 Progress</summary>
 
 ### ✅ Topics Learned
 - Static Files in Django
@@ -73,7 +83,11 @@ python manage.py runserver
 ## For HTML-CSS Practice(Practice Work)
 -[html-css-course](./html-css-course)
 
-## 📅 Day - 04 Progress
+</details>
+
+<details>
+
+<summary>## 📅 Day - 04 Progress</summary>
 
 ### ✅ Topics Practiced
 - CSS Hover Effects
@@ -81,20 +95,28 @@ python manage.py runserver
 - Shadow
 - [html-css-course](./html-css-course)
   
-## 📅 Day-05 Progress
+<summary> ## 📅 Day-05 Progress </summary>
 ### ✅ Topics Practiced
 - Chrome Dev Tools
 - CSS Box Model
 - [html-css-course](./html-css-course)
 
-# 📅 Day-06 Progress
+</details>
+
+<details>
+
+<summary># 📅 Day-06 Progress</summary>
 
 This is my practice project using HTML and CSS.
 
 ## Practiced
 ![Website Preview](html-css-course/intro-to-html/preview.png)
 
-# Day 07 – HTML Structure & Basic Webpage Setup
+</details>
+
+<details>
+  
+<summary># Day 07 – HTML Structure & Basic Webpage Setup</summary>
 
 Today I learned the basic structure of an HTML webpage and how different parts of a website are organized. I practiced creating a simple webpage and connecting it with CSS for styling.
 
@@ -133,10 +155,13 @@ Today I learned the basic structure of an HTML webpage and how different parts o
   Learned how to change the font of text using the `font-family` property in CSS.
 
   </details>
+</details>
 
-  
-# Day - 08 , Practice: Images, Text Boxes, CSS Display & Layout
-
+<details>
+  <summary>Week 2</summary>
+  <details>
+<summary># Day - 08 , Practice: Images, Text Boxes, CSS Display & Layout
+</summary>
 ## 📚 Topics Practiced Today
 
 Today I practiced some important HTML and CSS concepts related to layout and elements.
@@ -211,6 +236,8 @@ Today I practiced **CSS Flexbox** and **CSS Grid**, which are powerful layout sy
 ### 🛠 Practice
 
 -![YouTube](html-css-course/YouTube.png)
+  </details>
+</details> 
 
 
 
