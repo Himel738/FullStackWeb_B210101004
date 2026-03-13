@@ -1,14 +1,19 @@
-# Full Stack Web Development Project
+# 💻 Full Stack Web Development Project
 
 This project is developed for **Software Engineering Sessional Course**.
 
+It documents my **daily learning progress in Full Stack Web Development** including Django, HTML, CSS, and Web Layout techniques.
+
 ---
 
-<details>
-<summary><b>Week 1</b></summary>
+# 📚 Learning Progress
+
+## 📅 Week 1
+
+### 🔹 Day 01
 
 <details>
-<summary><b>📅 Day - 01 Progress</b></summary>
+<summary>View Details</summary>
 
 ### ✅ Topics Learned
 
@@ -52,8 +57,12 @@ python manage.py runserver
 
 </details>
 
+---
+
+### 🔹 Day 02
+
 <details>
-<summary><b>📅 Day - 02 Progress</b></summary>
+<summary>View Details</summary>
 
 ### Topics Learned
 
@@ -70,8 +79,12 @@ python manage.py runserver
 
 </details>
 
+---
+
+### 🔹 Day 03
+
 <details>
-<summary><b>📅 Day - 03 Progress</b></summary>
+<summary>View Details</summary>
 
 ### ✅ Topics Learned
 
@@ -87,9 +100,13 @@ python manage.py runserver
 ### 🛠️ Practice Work
 
 * Created static folder
+
 * Added CSS file in Django project
+
 * Connected HTML template with CSS styling
+
 * Tested static file configuration
+
 * [static](./static)
 
 ## For HTML-CSS Practice(Practice Work)
@@ -98,31 +115,48 @@ python manage.py runserver
 
 </details>
 
+---
+
+### 🔹 Day 04
+
 <details>
-<summary><b>📅 Day - 04 Progress</b></summary>
+<summary>View Details</summary>
 
 ### ✅ Topics Practiced
 
 * CSS Hover Effects
+
 * CSS Transitions
+
 * Shadow
+
 * [html-css-course](./html-css-course)
 
 </details>
 
+---
+
+### 🔹 Day 05
+
 <details>
-<summary><b>📅 Day-05 Progress</b></summary>
+<summary>View Details</summary>
 
 ### ✅ Topics Practiced
 
 * Chrome Dev Tools
+
 * CSS Box Model
+
 * [html-css-course](./html-css-course)
 
 </details>
 
+---
+
+### 🔹 Day 06
+
 <details>
-<summary><b>📅 Day-06 Progress</b></summary>
+<summary>View Details</summary>
 
 This is my practice project using HTML and CSS.
 
@@ -132,91 +166,88 @@ This is my practice project using HTML and CSS.
 
 </details>
 
+---
+
+### 🔹 Day 07
+
 <details>
-<summary><b>Day 07 – HTML Structure & Basic Webpage Setup</b></summary>
+<summary>View Details</summary>
+
+Day 07 – HTML Structure & Basic Webpage Setup
 
 Today I learned the basic structure of an HTML webpage and how different parts of a website are organized. I practiced creating a simple webpage and connecting it with CSS for styling.
 
 ## Topics I Learned
 
-* **HTML Structure**
-  Learned the basic structure of an HTML document including:
-  Learned the basic structure of an HTML document including:
+**HTML Structure**
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
 </head>
+
 <body>
 
 </body>
 </html>
 ```
 
-* **Title Tag**
+**Title Tag**
 
-* **Live Server**
-  Used the Live Server extension to automatically run and preview the website in the browser.
+**Live Server**
 
-* **Linking CSS File**
-  Learned how to connect an external CSS file to HTML using:
+Used the Live Server extension to automatically run and preview the website in the browser.
+
+**Linking CSS File**
 
 ```html
 <link rel="stylesheet" href="styles/text.css">
 ```
 
-* **Adding New Fonts**
-  Learned how to change the font of text using the `font-family` property in CSS.
+**Adding New Fonts**
 
-</details>
+Learned how to change the font of text using the `font-family` property in CSS.
 
 </details>
 
 ---
 
-<details>
-<summary><b>Week 2</b></summary>
+# 📅 Week 2
+
+### 🔹 Day 08
 
 <details>
-<summary><b>Day - 08 , Practice: Images, Text Boxes, CSS Display & Layout</b></summary>
+<summary>View Details</summary>
 
 ## 📚 Topics Practiced Today
 
 Today I practiced some important HTML and CSS concepts related to layout and elements.
 
-### 1️⃣ Images and Text Boxes
+### Images and Text Boxes
 
 * Learned how to insert images using the `<img>` tag.
 * Practiced controlling image size using `width` and `height`.
 * Used text boxes with the `<input type="text">` element.
 * Styled input fields using CSS.
 
-### 2️⃣ CSS Display Property
+### CSS Display Property
 
-* Learned about different `display` values:
+* block
+* inline
+* inline-block
+* none
 
-  * `block`
-  * `inline`
-  * `inline-block`
-  * `none`
-
-* Understood how these properties control how elements appear on the webpage.
-
-### 3️⃣ The DIV Element
+### The DIV Element
 
 * Practiced using the `<div>` element to group HTML elements.
-* Used `<div>` to structure different sections of a webpage.
-* Applied CSS styling to `div` containers.
 
-### 4️⃣ Nested Layout Technique
+### Nested Layout Technique
 
 * Learned how to place `div` elements inside other `div` elements.
-* Used nested layouts to organize page structure.
-* Practiced building simple layouts using nested containers.
 
 ![NestedTechnique](html-css-course/NestedTechnique.png)
 
@@ -225,46 +256,40 @@ Today I practiced some important HTML and CSS concepts related to layout and ele
 * HTML5
 * CSS3
 
-## Practices(YouTube Design)
+## Practices (YouTube Design)
 
 ![YouTube](html-css-course/youtubepractice.png)
 
 </details>
 
-<details>
-<summary><b>Day - 09 Progress 🚀</b></summary>
+---
 
-Today I practiced **CSS Flexbox** and **CSS Grid**, which are powerful layout systems used to create responsive and structured web designs.
+### 🔹 Day 09
+
+<details>
+<summary>View Details</summary>
+
+Today I practiced **CSS Flexbox** and **CSS Grid**.
 
 ### 📌 Topics Covered
 
-* **CSS Flexbox**
+CSS Flexbox
 
-  * `display: flex`
-  * `flex-direction`
-  * `justify-content`
-  * `align-items`
-  * `flex-wrap`
+* display: flex
+* flex-direction
+* justify-content
+* align-items
+* flex-wrap
 
-* **CSS Grid**
+CSS Grid
 
-  * `display: grid`
-  * `grid-template-columns`
-  * `grid-template-rows`
-  * `gap`
-  * `grid-column` and `grid-row`
-
-### 💡 What I Learned
-
-* How to align and distribute items using **Flexbox**.
-* How to build **two-dimensional layouts** using **CSS Grid**.
-* The difference between **one-dimensional (Flexbox)** and **two-dimensional (Grid)** layout systems.
-* How these techniques help create **responsive web page layouts**.
+* display: grid
+* grid-template-columns
+* grid-template-rows
+* gap
 
 ### 🛠 Practice
 
 ![YouTube](html-css-course/YouTube.png)
-
-</details>
 
 </details>
