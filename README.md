@@ -293,3 +293,29 @@ CSS Grid
 ![YouTube](html-css-course/YouTube.png)
 
 </details>
+
+🔹 Day 03
+<details> <summary>View Details</summary>
+
+Today I practiced Nested Flexbox and built a YouTube Header layout.
+
+📌 Topics Covered
+
+Nested Flexbox
+
+Using flexbox inside another flex container
+
+Creating complex layouts with nested flex
+
+Aligning items in multi-level flex structures
+
+Combining justify-content and align-items in nested layouts
+
+🛠 Practice
+
+Practiced building a YouTube Header Layout
+
+Structured the header using Nested Flexbox
+![YouTube](html-css-course/nested.png)
+
+</details>
