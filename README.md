@@ -8,7 +8,7 @@ It documents my **daily learning progress in Full Stack Web Development** includ
 
 # 📚 Learning Progress
 
-## 📅 Week 1
+##  Week 1
 
 ### 🔹 Day 01
 
@@ -216,7 +216,7 @@ Learned how to change the font of text using the `font-family` property in CSS.
 
 ---
 
-# 📅 Week 2
+#  Week 2
 
 ### 🔹 Day 01
 
