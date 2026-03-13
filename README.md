@@ -1,32 +1,48 @@
-# Full Stack Web Development Project
+# 💻 Full Stack Web Development Project
 
 This project is developed for **Software Engineering Sessional Course**.
 
+It documents my **daily learning progress in Full Stack Web Development** including Django, HTML, CSS, and Web Layout techniques.
+
 ---
 
-## 📅 Day - 01 Progress
+# 📚 Learning Progress
+
+## 📅 Week 1
+
+### 🔹 Day 01
+
+<details>
+<summary>View Details</summary>
 
 ### ✅ Topics Learned
-- Introduction to Full Stack Web Development
-- What is Django
-- Why use Django
-- Software Installation
-- Python & Django Setup
-- Virtual Environment (venv)
-- Creating & Activating Environment
-- Django Project Structure
+
+* Introduction to Full Stack Web Development
+* What is Django
+* Why use Django
+* Software Installation
+* Python & Django Setup
+* Virtual Environment (venv)
+* Creating & Activating Environment
+* Django Project Structure
+
 ## ⚙️ Software Installation
-- Python Installed
-- VS Code Installed
-- git bash Installed
-- Django Installed using pip
+
+* Python Installed
+* VS Code Installed
+* git bash Installed
+* Django Installed using pip
+
 # Django Project Setup & Running Guide
 
 This document explains how to create a virtual environment, install Django, and run the development server.
 
 ---
-##  Steps Used (Git Bash)
-###  Create Virtual Environment
+
+## Steps Used (Git Bash)
+
+### Create Virtual Environment
+
 ```bash
 python -m venv env
 env\Scripts\activate (Activation)
@@ -37,145 +53,243 @@ python manage.py runserver
 
 # 📁 Project (Learning)
 
-- [DjangoFrameWorkLearning](./DjangoFrameWorkLearning)
+* [DjangoFrameWorkLearning](./DjangoFrameWorkLearning)
 
-## 📅 Day - 02 Progress
+</details>
 
-###  Topics Learned
-- Django Settings Explained  
-- How Django Works  
-- URL & HttpResponse  
-- Django Template  
-- Bootstrap Integration
+---
+
+### 🔹 Day 02
+
+<details>
+<summary>View Details</summary>
+
+### Topics Learned
+
+* Django Settings Explained
+* How Django Works
+* URL & HttpResponse
+* Django Template
+* Bootstrap Integration
+
 # Created:
-- [views.py](./views.py)
-- [templates](./templates)
-## 📅 Day - 03 Progress
+
+* [views.py](./views.py)
+* [templates](./templates)
+
+</details>
+
+---
+
+### 🔹 Day 03
+
+<details>
+<summary>View Details</summary>
 
 ### ✅ Topics Learned
-- Static Files in Django
-- STATIC_URL, STATIC_ROOT & STATICFILES_DIRS
-- Loading Static Files in Templates (`{% load static %}`)
-- Introduction to HTML
-- Basic HTML Structure
-- Introduction to CSS
-- Linking CSS with Django Templates
-- Button Design With CSS
+
+* Static Files in Django
+* STATIC_URL, STATIC_ROOT & STATICFILES_DIRS
+* Loading Static Files in Templates (`{% load static %}`)
+* Introduction to HTML
+* Basic HTML Structure
+* Introduction to CSS
+* Linking CSS with Django Templates
+* Button Design With CSS
 
 ### 🛠️ Practice Work
-- Created static folder
-- Added CSS file in Django project
-- Connected HTML template with CSS styling
-- Tested static file configuration
-- [static](./static)
+
+* Created static folder
+
+* Added CSS file in Django project
+
+* Connected HTML template with CSS styling
+
+* Tested static file configuration
+
+* [static](./static)
+
 ## For HTML-CSS Practice(Practice Work)
--[html-css-course](./html-css-course)
 
-## 📅 Day - 04 Progress
+* [html-css-course](./html-css-course)
+
+</details>
+
+---
+
+### 🔹 Day 04
+
+<details>
+<summary>View Details</summary>
 
 ### ✅ Topics Practiced
-- CSS Hover Effects
-- CSS Transitions
-- Shadow
-- [html-css-course](./html-css-course)
-  
-## 📅 Day-05 Progress
-### ✅ Topics Practiced
-- Chrome Dev Tools
-- CSS Box Model
-- [html-css-course](./html-css-course)
 
-# 📅 Day-06 Progress
+* CSS Hover Effects
+
+* CSS Transitions
+
+* Shadow
+
+* [html-css-course](./html-css-course)
+
+</details>
+
+---
+
+### 🔹 Day 05
+
+<details>
+<summary>View Details</summary>
+
+### ✅ Topics Practiced
+
+* Chrome Dev Tools
+
+* CSS Box Model
+
+* [html-css-course](./html-css-course)
+
+</details>
+
+---
+
+### 🔹 Day 06
+
+<details>
+<summary>View Details</summary>
 
 This is my practice project using HTML and CSS.
 
 ## Practiced
+
 ![Website Preview](html-css-course/intro-to-html/preview.png)
 
-# Day 07 – HTML Structure & Basic Webpage Setup
+</details>
+
+---
+
+### 🔹 Day 07
+
+<details>
+<summary>View Details</summary>
+
+Day 07 – HTML Structure & Basic Webpage Setup
 
 Today I learned the basic structure of an HTML webpage and how different parts of a website are organized. I practiced creating a simple webpage and connecting it with CSS for styling.
 
 ## Topics I Learned
 
-* **HTML Structure**
-  Learned the basic structure of an HTML document including:
-  Learned the basic structure of an HTML document including:
+**HTML Structure**
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
 </head>
+
 <body>
 
 </body>
 </html>
 ```
 
-* **Title Tag**
+**Title Tag**
 
-* **Live Server**
-  Used the Live Server extension to automatically run and preview the website in the browser.
-* **Linking CSS File**
-  Learned how to connect an external CSS file to HTML using:
+**Live Server**
 
-  ```html
-  <link rel="stylesheet" href="styles/text.css">
-  ```
+Used the Live Server extension to automatically run and preview the website in the browser.
 
-* **Adding New Fonts**
-  Learned how to change the font of text using the `font-family` property in CSS.
+**Linking CSS File**
 
-  
-# Day - 08 , Practice: Images, Text Boxes, CSS Display & Layout
+```html
+<link rel="stylesheet" href="styles/text.css">
+```
+
+**Adding New Fonts**
+
+Learned how to change the font of text using the `font-family` property in CSS.
+
+</details>
+
+---
+
+# 📅 Week 2
+
+### 🔹 Day 01
+
+<details>
+<summary>View Details</summary>
 
 ## 📚 Topics Practiced Today
 
 Today I practiced some important HTML and CSS concepts related to layout and elements.
 
-### 1️⃣ Images and Text Boxes
+### Images and Text Boxes
 
 * Learned how to insert images using the `<img>` tag.
 * Practiced controlling image size using `width` and `height`.
 * Used text boxes with the `<input type="text">` element.
 * Styled input fields using CSS.
 
-### 2️⃣ CSS Display Property
+### CSS Display Property
 
-* Learned about different `display` values:
+* block
+* inline
+* inline-block
+* none
 
-  * `block`
-  * `inline`
-  * `inline-block`
-  * `none`
-* Understood how these properties control how elements appear on the webpage.
-
-### 3️⃣ The DIV Element
+### The DIV Element
 
 * Practiced using the `<div>` element to group HTML elements.
-* Used `<div>` to structure different sections of a webpage.
-* Applied CSS styling to `div` containers.
 
-### 4️⃣ Nested Layout Technique
+### Nested Layout Technique
 
 * Learned how to place `div` elements inside other `div` elements.
-* Used nested layouts to organize page structure.
-* Practiced building simple layouts using nested containers.
-* ![NestedTechnique](html-css-course/NestedTechnique.png)
+
+![NestedTechnique](html-css-course/NestedTechnique.png)
 
 ## 🛠️ Technologies Used
 
 * HTML5
 * CSS3
 
-## Practices(YouTube Design)
--![YouTube](html-css-course/youtubepractice.png)
+## Practices (YouTube Design)
 
+![YouTube](html-css-course/youtubepractice.png)
 
+</details>
 
+---
 
+### 🔹 Day 02
 
+<details>
+<summary>View Details</summary>
+
+Today I practiced **CSS Flexbox** and **CSS Grid**.
+
+### 📌 Topics Covered
+
+CSS Flexbox
+
+* display: flex
+* flex-direction
+* justify-content
+* align-items
+* flex-wrap
+
+CSS Grid
+
+* display: grid
+* grid-template-columns
+* grid-template-rows
+* gap
+
+### 🛠 Practice
+
+![YouTube](html-css-course/YouTube.png)
+
+</details>
