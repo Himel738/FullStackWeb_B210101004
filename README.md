@@ -3,7 +3,8 @@
 This project is developed for **Software Engineering Sessional Course**.
 
 ---
-
+<details>
+<summary>Week 1</summary>
 ## 📅 Day - 01 Progress
 
 ### ✅ Topics Learned
@@ -129,6 +130,8 @@ Today I learned the basic structure of an HTML webpage and how different parts o
 
 * **Adding New Fonts**
   Learned how to change the font of text using the `font-family` property in CSS.
+
+  </details>
 
   
 # Day - 08 , Practice: Images, Text Boxes, CSS Display & Layout
