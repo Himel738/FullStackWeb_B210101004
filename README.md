@@ -94,6 +94,9 @@ python manage.py runserver
 - CSS Transitions
 - Shadow
 - [html-css-course](./html-css-course)
+</details>
+
+<details>
   
 <summary> ## 📅 Day-05 Progress </summary>
 ### ✅ Topics Practiced
