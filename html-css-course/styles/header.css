@@ -1,10 +1,20 @@
 .header{
-  height: 57px;
+  height: 55px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228,228,228);
 }
 
 .left-section {
@@ -46,7 +56,7 @@
   font-size: 16px;
 }
 .search-button{
-  height: 40px;
+  height: 39.5px;
   width: 66px;
   background-color: rgb(240,240,240);
   border: 1px solid rgb(192,192,192);
@@ -89,6 +99,23 @@
 }
 .notifications-icon{
   height: 24px;
+}
+.notification-icon-container{
+  position: relative;
+}
+.notification-count{
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color:rgb(200,0,0);
+  color: white;
+  font-family: roboto,arial;
+  font-size:11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-radius: 10px;
 }
 .current-user-picture{
   height: 32px;
