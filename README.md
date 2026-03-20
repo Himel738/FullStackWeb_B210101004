@@ -321,3 +321,31 @@ Structured the header using Nested Flexbox
 ![YouTube](html-css-course/nested.png)
 
 </details>
+  
+---
+
+
+### 🔹 Day 04
+
+<details>
+<summary>View Details</summary>
+
+Today I practiced **CSS Position** and learned how elements can be placed precisely on a webpage.
+
+### 📌 Topics Covered
+
+CSS Position
+
+* position: static  
+* position: relative  
+* position: absolute  
+
+### 🛠 Practice
+
+I practiced how **relative** and **absolute positioning** work together to control the placement of elements inside a container.
+
+![Practice Screenshot](html-css-course/position.png)
+
+</details>
+
+---
