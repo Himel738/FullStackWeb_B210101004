@@ -8,7 +8,7 @@
       font-size: 14px;
       font-weight: 500;
       line-height: 20px;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .video-author,
@@ -27,12 +27,12 @@
     }
 
     .profile-picture {
-      width: 40px;
+      width: 36px;
       border-radius: 50px;
     }
 
     .thumbnail-row {
-      margin-bottom: 12px;
+      margin-bottom: 8px;
       position:relative;
     }
 
@@ -40,7 +40,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       column-gap: 16px;
-      row-gap: 14px;
+      row-gap: 40px;
     }
     .video-time{
       font-family: roboto,arial;
