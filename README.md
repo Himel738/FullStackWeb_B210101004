@@ -349,3 +349,42 @@ I practiced how **relative** and **absolute positioning** work together to contr
 </details>
 
 ---
+
+### Day-05
+<details> 
+
+<summary>View Details</summary>
+
+Today I completed the YouTube UI practice project by focusing on the Toolkit (Header Section) and Sidebar layout, along with making several visual and structural adjustments.
+
+📌 Topics Covered
+
+YouTube Layout Completion
+
+Header / Toolkit Design
+
+Sidebar Navigation Layout
+
+Alignment and Spacing Adjustments
+
+Consistent UI Styling
+
+Improving Layout Structure
+
+🛠 Practice
+
+Designed and adjusted the top toolkit (header) including icons and layout alignment
+
+Built and refined the sidebar section for better navigation structure
+
+Fixed spacing, margins, and alignment issues across the layout
+
+Improved overall UI consistency to closely match a real-world YouTube interface
+
+📸 Final Output:
+
+![Practice Screenshot](html-css-course/Final.png)
+
+</details>
+
+---
