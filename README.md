@@ -389,3 +389,54 @@ Improved overall UI consistency to closely match a real-world YouTube interface
 </details>
 
 ---
+
+### 🔹 Day-06
+<details> <summary>View Details</summary>
+
+Today I focused on improving my CSS knowledge by learning Responsive Design techniques, along with important core concepts like shorthand properties, inheritance, specificity, and semantic HTML elements.
+
+### 📌 Topics Covered
+
+### Responsive Design
+
+Media Queries
+Flexible Layouts
+Mobile-Friendly Design
+
+### CSS Shorthand
+
+margin, padding shorthand
+background shorthand
+font shorthand
+
+### CSS Inheritance
+
+How styles pass from parent to child
+Default inherited properties
+
+### CSS Specificity
+
+Priority of selectors
+Inline vs ID vs Class vs Element
+
+### Semantic Elements
+<header>
+<nav>
+<section>
+<article>
+<footer>
+  
+### 🛠 Practice
+Practiced creating responsive layouts using media queries for different screen sizes
+
+Used CSS shorthand properties to write cleaner and more efficient code
+
+Explored how inheritance works and how styles cascade through elements
+
+Tested different selectors to understand CSS specificity and priority
+
+Structured a webpage using semantic HTML elements for better readability and SEO
+
+</details>
+
+---
