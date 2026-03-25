@@ -1,6 +1,6 @@
 # 💻 Full Stack Web Development Project
 
-This project is developed for **Software Engineering Sessional Course**.
+This project is being developed for the **Software Engineering Sessional Course**.
 
 It documents my **daily learning progress in Full Stack Web Development** including Django, HTML, CSS, and Web Layout techniques.
 
