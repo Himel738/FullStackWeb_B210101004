@@ -420,11 +420,14 @@ Priority of selectors
 Inline vs ID vs Class vs Element
 
 ### Semantic Elements
+
+```html
 <header>
 <nav>
 <section>
 <article>
 <footer>
+```
   
 ### 🛠 Practice
 Practiced creating responsive layouts using media queries for different screen sizes
