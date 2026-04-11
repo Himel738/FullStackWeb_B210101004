@@ -444,7 +444,7 @@ Structured a webpage using semantic HTML elements for better readability and SEO
 
 ---
 
-## Day - 07
+## 🔹 Day - 07
 <details>
 <summary>View Details</summary
 
