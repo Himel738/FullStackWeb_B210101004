@@ -443,3 +443,28 @@ Structured a webpage using semantic HTML elements for better readability and SEO
 </details>
 
 ---
+
+## Day - 06
+
+### 🔹 Python Code
+
+<details>
+<summary>View Details</summary>
+
+### Topics Learned
+
+* Python Fundamentals
+* File Handling (read, write, modes)
+* Exception Handling (try, except, finally)
+* Lambda, Map, Filter Functions
+* Working with Lists, Dictionaries
+* String Operations (split, strip)
+* Basic Problem Solving
+
+### Created:
+
+* 🔗 [Python_Code Folder](https://github.com/Himel738/AI-ML-Playground/tree/main/Python_Code)
+
+</details>
+
+---
