@@ -445,12 +445,11 @@ Structured a webpage using semantic HTML elements for better readability and SEO
 ---
 
 ## Day - 06
-
-### 🔹 Python Code
-
 <details>
-<summary>View Details</summary>
+<summary>View Details</summary
 
+I have started learning Python, which is essential for understanding Django. Python is a simple and powerful programming language used in web development.
+                       
 ### Topics Learned
 
 * Python Fundamentals
