@@ -1,6 +1,6 @@
 # 💻 Full Stack Web Development Project
 
-This project is developed for **Software Engineering Sessional Course**.
+This project is being developed for the **Software Engineering Sessional Course**.
 
 It documents my **daily learning progress in Full Stack Web Development** including Django, HTML, CSS, and Web Layout techniques.
 
@@ -385,6 +385,84 @@ Improved overall UI consistency to closely match a real-world YouTube interface
 ### 📸 Final Output:
 
 ![Practice Screenshot](html-css-course/Final.png)
+
+</details>
+
+---
+
+### 🔹 Day-06
+<details> <summary>View Details</summary>
+
+Today I focused on improving my CSS knowledge by learning Responsive Design techniques, along with important core concepts like shorthand properties, inheritance, specificity, and semantic HTML elements.
+
+### 📌 Topics Covered
+
+### Responsive Design
+
+Media Queries
+Flexible Layouts
+Mobile-Friendly Design
+
+### CSS Shorthand
+
+margin, padding shorthand
+background shorthand
+font shorthand
+
+### CSS Inheritance
+
+How styles pass from parent to child
+Default inherited properties
+
+### CSS Specificity
+
+Priority of selectors
+Inline vs ID vs Class vs Element
+
+### Semantic Elements
+
+```html
+<header>
+<nav>
+<section>
+<article>
+<footer>
+```
+  
+### 🛠 Practice
+Practiced creating responsive layouts using media queries for different screen sizes
+
+Used CSS shorthand properties to write cleaner and more efficient code
+
+Explored how inheritance works and how styles cascade through elements
+
+Tested different selectors to understand CSS specificity and priority
+
+Structured a webpage using semantic HTML elements for better readability and SEO
+
+</details>
+
+---
+
+## 🔹 Day - 07
+<details>
+<summary>View Details</summary
+
+I have started learning Python, which is essential for understanding Django. Python is a simple and powerful programming language used in web development.
+                       
+### Topics Learned
+
+* Python Fundamentals
+* File Handling (read, write, modes)
+* Exception Handling (try, except, finally)
+* Lambda, Map, Filter Functions
+* Working with Lists, Dictionaries
+* String Operations (split, strip)
+* Basic Problem Solving
+
+### Created:
+
+* 🔗 [Python_Code Folder](https://github.com/Himel738/AI-ML-Playground/tree/main/Python_Code)
 
 </details>
 
