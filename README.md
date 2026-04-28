@@ -480,3 +480,11 @@ This folder contains my JavaScript basics practice and learning journey. It incl
 
 ---
 
+### 🔹 Day - 02
+<details>
+<summary>View Details</summary
+
+# PortFolio-Project - https://portfolioshohan20.netlify.app/
+</details>
+
+---
