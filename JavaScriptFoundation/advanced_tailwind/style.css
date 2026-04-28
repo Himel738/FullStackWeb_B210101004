@@ -1,0 +1,222 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #51007e;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* Body styling */
+body {
+  @apply font-sans antialiased;
+}
+
+/* Button styling */
+.button {
+  @apply bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-full font-bold shadow-lg hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-110 transition-all duration-300 inline-block;
+}
+
+.button:active {
+  @apply scale-95;
+}
+
+/* Link hover effects with smooth transition */
+a {
+  @apply transition-colors duration-300;
+}
+
+/* Section spacing with proper padding */
+section {
+  @apply scroll-mt-24;
+}
+
+/* Heading styling */
+h1, h2, h3 {
+  @apply font-bold;
+}
+
+/* Input and textarea focus styles */
+input, textarea {
+  @apply transition-all duration-300;
+}
+
+input:focus, textarea:focus {
+  @apply outline-none;
+}
+
+/* Blob animation for hero background */
+@keyframes blob {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    @apply opacity-0;
+  }
+  to {
+    @apply opacity-100;
+  }
+}
+
+/* Fade in up animation */
+@keyframes fadeInUp {
+  from {
+    @apply opacity-0 translate-y-8;
+  }
+  to {
+    @apply opacity-100 translate-y-0;
+  }
+}
+
+/* Slide down animation */
+@keyframes slideDown {
+  from {
+    @apply opacity-0 -translate-y-4;
+  }
+  to {
+    @apply opacity-100 translate-y-0;
+  }
+}
+
+/* Slide up animation */
+@keyframes slideUp {
+  from {
+    @apply opacity-0 translate-y-4;
+  }
+  to {
+    @apply opacity-100 translate-y-0;
+  }
+}
+
+/* Slide left animation */
+@keyframes slideLeft {
+  from {
+    @apply opacity-0 -translate-x-8;
+  }
+  to {
+    @apply opacity-100 translate-x-0;
+  }
+}
+
+/* Slide right animation */
+@keyframes slideRight {
+  from {
+    @apply opacity-0 translate-x-8;
+  }
+  to {
+    @apply opacity-100 translate-x-0;
+  }
+}
+
+/* Utility classes for animations */
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animation-delay-300 {
+  animation-delay: 0.3s;
+}
+
+.animation-delay-600 {
+  animation-delay: 0.6s;
+}
+
+.animation-delay-900 {
+  animation-delay: 0.9s;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animation-delay-100 {
+  animation-delay: 0.1s;
+}
+
+.animation-delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animation-delay-400 {
+  animation-delay: 0.4s;
+}
+
+.animation-delay-500 {
+  animation-delay: 0.5s;
+}
+
+.animation-delay-700 {
+  animation-delay: 0.7s;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.6s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease-out forwards;
+}
+
+.animate-slide-left {
+  animation: slideLeft 0.8s ease-out forwards;
+}
+
+.animate-slide-right {
+  animation: slideRight 0.8s ease-out forwards;
+}
+
+/* Responsive text sizes */
+@media (max-width: 768px) {
+  body {
+    @apply text-base;
+  }
+}
+
+/* Smooth transitions for all elements */
+* {
+  @apply transition-colors duration-300;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #3b82f6, #a855f7);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #60a5fa, #c084fc);
+}
