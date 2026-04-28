@@ -220,3 +220,36 @@ input:focus, textarea:focus {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to bottom, #60a5fa, #c084fc);
 }
+
+/* Mobile responsiveness enhancements */
+@media (max-width: 640px) {
+  html {
+    scroll-padding-top: 60px;
+  }
+
+  body {
+    @apply text-sm;
+  }
+
+  section {
+    @apply scroll-mt-16;
+  }
+
+  .button {
+    @apply px-6 py-2 text-sm;
+  }
+}
+
+/* Tablet responsiveness */
+@media (max-width: 1024px) {
+  .button {
+    @apply hover:scale-105;
+  }
+}
+
+/* Large mobile improvements */
+@media (min-width: 641px) and (max-width: 768px) {
+  body {
+    @apply text-base;
+  }
+}
