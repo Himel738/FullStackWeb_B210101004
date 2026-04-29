@@ -106,9 +106,9 @@
     </section>
 
     <!-- About Section -->
-    <section id="About" class="py-24 px-6 bg-slate-900 relative">
+    <section  class="py-24 px-6 bg-slate-900 relative">
       <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-16">
+        <div id="About" class="text-center mb-16">
           <h2
             class="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent animate-slide-down">
             About Me</h2>
@@ -167,16 +167,15 @@
                 </li>
               </ul>
             </div>
-
           </div>
         </div>
       </div>
     </section>
 
     <!-- Skills & Services Section -->
-    <section id="Skills" class="py-24 px-6 bg-slate-950">
+    <section  class="py-24 px-6 bg-slate-950">
       <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-16">
+        <div id="Skills" class="text-center mb-16">
           <h2
             class="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent animate-slide-down">
             Services & Skills</h2>
@@ -264,10 +263,68 @@
       </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="Projects" class="py-24 px-6 bg-slate-900">
+    <!-- Online Judges Section -->
+    <section  class="min-h-screen py-24 px-6 bg-slate-950">
       <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-16">
+        <div id="OJ" class="text-center mb-16">
+          <h2
+            class="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent animate-slide-down">
+            Online Judges</h2>
+          <div class="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto animate-slide-up"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- OJ Card 1 -->
+          <div
+            class="group bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 shadow-lg hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-500 hover:scale-105 text-center animate-fade-in-up">
+            <div class="text-5xl mb-4 flex justify-center group-hover:scale-125 transition-transform duration-300">🚀
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3 group-hover:text-blue-300 transition">LeetCode</h3>
+            <p class="text-gray-400 mb-4">72 Problems Solved</p>
+            <a href="https://leetcode.com/u/KutuMia/"
+              class="text-blue-400 font-semibold hover:text-blue-300 transition inline-block">View Profile →</a>
+          </div>
+
+          <!-- OJ Card 2 -->
+          <div
+            class="group bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-purple-500 shadow-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-500 hover:scale-105 text-center animate-fade-in-up animation-delay-200">
+            <div class="text-5xl mb-4 flex justify-center group-hover:scale-125 transition-transform duration-300">💻
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3 group-hover:text-purple-300 transition">Beecrowd</h3>
+            <p class="text-gray-400 mb-4">175 problems solved</p>
+            <a href="https://judge.beecrowd.com/en/profile/853572"
+              class="text-purple-400 font-semibold hover:text-purple-300 transition inline-block">View Profile →</a>
+          </div>
+
+          <!-- OJ Card 3 -->
+          <div
+            class="group bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-pink-500 shadow-lg hover:shadow-2xl hover:shadow-pink-500/50 transition-all duration-500 hover:scale-105 text-center animate-fade-in-up animation-delay-400">
+            <div class="text-5xl mb-4 flex justify-center group-hover:scale-125 transition-transform duration-300">⚡
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3 group-hover:text-pink-300 transition">CodeChef</h3>
+            <p class="text-gray-400 mb-4">63 Problems Solved</p>
+            <a href="https://www.codechef.com/users/kutumia20"
+              class="text-pink-400 font-semibold hover:text-pink-300 transition inline-block">View Profile →</a>
+          </div>
+
+          <!-- OJ Card 4 -->
+          <div
+            class="group bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-green-500 shadow-lg hover:shadow-2xl hover:shadow-green-500/50 transition-all duration-500 hover:scale-105 text-center animate-fade-in-up animation-delay-600">
+            <div class="text-5xl mb-4 flex justify-center group-hover:scale-125 transition-transform duration-300">🎯
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3 group-hover:text-green-300 transition">Codeforces</h3>
+            <p class="text-gray-400 mb-4">151 problems solved</p>
+            <a href="https://codeforces.com/profile/Kutu_Mia"
+              class="text-green-400 font-semibold hover:text-green-300 transition inline-block">View Profile →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section  class="py-24 px-6 bg-slate-900">
+      <div class="max-w-6xl mx-auto">
+        <div id="Projects" class="text-center mb-16">
           <h2
             class="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent animate-slide-down">
             Recent Projects</h2>
@@ -376,72 +433,16 @@
       </div>
     </section>
 
-    <!-- Online Judges Section -->
-    <section id="OJ" class="py-24 px-6 bg-slate-950">
-      <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-16">
-          <h2
-            class="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent animate-slide-down">
-            Online Judges</h2>
-          <div class="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto animate-slide-up"></div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <!-- OJ Card 1 -->
-          <div
-            class="group bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 shadow-lg hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-500 hover:scale-105 text-center animate-fade-in-up">
-            <div class="text-5xl mb-4 flex justify-center group-hover:scale-125 transition-transform duration-300">🚀
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3 group-hover:text-blue-300 transition">LeetCode</h3>
-            <p class="text-gray-400 mb-4">72 Problems Solved</p>
-            <a href="https://leetcode.com/u/KutuMia/"
-              class="text-blue-400 font-semibold hover:text-blue-300 transition inline-block">View Profile →</a>
-          </div>
-
-          <!-- OJ Card 2 -->
-          <div
-            class="group bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-purple-500 shadow-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-500 hover:scale-105 text-center animate-fade-in-up animation-delay-200">
-            <div class="text-5xl mb-4 flex justify-center group-hover:scale-125 transition-transform duration-300">💻
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3 group-hover:text-purple-300 transition">Beecrowd</h3>
-            <p class="text-gray-400 mb-4">175 problems solved</p>
-            <a href="https://judge.beecrowd.com/en/profile/853572"
-              class="text-purple-400 font-semibold hover:text-purple-300 transition inline-block">View Profile →</a>
-          </div>
-
-          <!-- OJ Card 3 -->
-          <div
-            class="group bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-pink-500 shadow-lg hover:shadow-2xl hover:shadow-pink-500/50 transition-all duration-500 hover:scale-105 text-center animate-fade-in-up animation-delay-400">
-            <div class="text-5xl mb-4 flex justify-center group-hover:scale-125 transition-transform duration-300">⚡
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3 group-hover:text-pink-300 transition">CodeChef</h3>
-            <p class="text-gray-400 mb-4">63 Problems Solved</p>
-            <a href="https://www.codechef.com/users/kutumia20"
-              class="text-pink-400 font-semibold hover:text-pink-300 transition inline-block">View Profile →</a>
-          </div>
-
-          <!-- OJ Card 4 -->
-          <div
-            class="group bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-green-500 shadow-lg hover:shadow-2xl hover:shadow-green-500/50 transition-all duration-500 hover:scale-105 text-center animate-fade-in-up animation-delay-600">
-            <div class="text-5xl mb-4 flex justify-center group-hover:scale-125 transition-transform duration-300">🎯
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3 group-hover:text-green-300 transition">Codeforces</h3>
-            <p class="text-gray-400 mb-4">151 problems solved</p>
-            <a href="https://codeforces.com/profile/Kutu_Mia"
-              class="text-green-400 font-semibold hover:text-green-300 transition inline-block">View Profile →</a>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <!-- Education Section -->
-    <section id="Education" class="py-24 px-6 bg-slate-900">
+    <section  class="py-24 px-6 bg-slate-900">
       <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-16">
+        <div id="Education" class="text-center mb-16">
           <h2
             class="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent animate-slide-down">
             Education</h2>
-          <div class="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto animate-slide-up"></div>
+          <div  class="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto animate-slide-up"></div>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -552,9 +553,9 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="Contact" class="py-24 px-6 bg-gradient-to-br from-slate-950 via-purple-900/20 to-slate-950">
+    <section  class="py-24 px-6 bg-gradient-to-br from-slate-950 via-purple-900/20 to-slate-950">
       <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-16">
+        <div id="Contact" class="text-center mb-16">
           <h2
             class="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent animate-slide-down">
             Get In Touch</h2>
