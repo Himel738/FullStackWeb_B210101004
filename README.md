@@ -467,3 +467,24 @@ I have started learning Python, which is essential for understanding Django. Pyt
 </details>
 
 ---
+# Week-03
+
+### 🔹 Day - 01
+<details>
+<summary>View Details</summary
+
+## Java Script Basic Foundation
+This folder contains my JavaScript basics practice and learning journey. It includes fundamental concepts, examples, and small exercises that helped me build a strong foundation in JavaScript.
+![Java-Basic-Foundation](javaScriptFoundation)
+</details>
+
+---
+
+### 🔹 Day - 02
+<details>
+<summary>View Details</summary
+
+# PortFolio-Project - https://portfolioshohan20.netlify.app/
+</details>
+
+---
