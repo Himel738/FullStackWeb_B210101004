@@ -32,31 +32,11 @@
 
     <!-- Tasks/ To-do List -->
     <div id="todo-list" class="px-4 space-y-3">
-
-      <!-- Task 1 (regular Task) -->
-      <div class="flex items-center justify-between bg-gray-100 px-3 py-2 rounded-lg">
-        <div class="flex items-center gap-2">
-          <input type="checkbox" class="w-5 h-5 accent-purple-500">
-          <span>Complete the assignment</span>
-        </div>
-        <button class="text-gray-400 hover:text-red-500">🗑</button>
-      </div>
-
-      <!-- Task 2 (Completed) -->
-      <div class="flex items-center justify-between bg-gray-100 px-3 py-2 rounded-lg">
-        <div class="flex items-center gap-2">
-          <input type="checkbox" checked class="w-5 h-5 accent-purple-500">
-          <span class="line-through text-gray-400">Watch the tutorial video</span>
-        </div>
-        <button class="text-gray-400 hover:text-red-500">🗑</button>
-      </div>
-
     </div>
 
     <!-- Footer -->
     <div class="flex justify-between items-center px-4 py-4 text-sm text-gray-500">
-      <span>Total tasks: <span class="text-purple-500 font-semibold">0</span></span>
-      <button class="text-blue-500 hover:underline">Clear completed</button>
+      <span id="total_task">Total tasks: <span class="text-purple-500 font-semibold">0</span></span>
     </div>
   </div>
   <script src="script.js"></script>
