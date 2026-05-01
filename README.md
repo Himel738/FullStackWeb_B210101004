@@ -488,3 +488,26 @@ This folder contains my JavaScript basics practice and learning journey. It incl
 </details>
 
 ---
+
+### 🔹 Day - 03
+<details>
+<summary>View Details</summary
+
+## Advanced Java Script
+- Rest_API
+- ES6 Promises And Async Programming
+</details>
+
+---
+
+### 🔹 Day - 04
+<details>
+<summary>View Details</summary
+Complete a Simple TO-Do App using JS
+</details>
+
+---
+
+
+
+
