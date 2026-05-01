@@ -497,6 +497,7 @@ This folder contains my JavaScript basics practice and learning journey. It incl
 - Rest_API
 - ES6 Promises And Async Programming
 </details>
+
 ---
 
 ### 🔹 Day - 04
@@ -504,6 +505,7 @@ This folder contains my JavaScript basics practice and learning journey. It incl
 <summary>View Details</summary
 Complete a Simple TO-Do App using JS
 </details>
+
 ---
 
 
