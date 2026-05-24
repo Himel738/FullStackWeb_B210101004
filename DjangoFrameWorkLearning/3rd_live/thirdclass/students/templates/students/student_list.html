@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student List</title>
+</head>
+<body>
+    <h1>Student List of CSTU</h1>
+    <a href="{% url 'student_create' %}">Add New Student</a>
+    
+    <ul>
+        {% for student in students %}
+            <li>{{ student.name }} - {{ student.email }} - {{ student.grade }}</li>
+            <a href="{% url 'student_update' student.pk %}">Update Student</a>
+            <br>
+            <a href="{% url 'student_delete' student.pk %}">Delete Student</a>
+        {% endfor %}
+    </ul>
+</body>
+</html>
