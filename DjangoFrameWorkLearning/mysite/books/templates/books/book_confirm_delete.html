@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}
+Book Delete Page
+{% endblock %}
+
+{% block content %}
+
+<h1>Delete Book</h1>
+
+<p>Are you sure you want to delete this book?</p>
+
+<p>Title: {{ object.title }}</p>
+<p>Author: {{ object.author }}</p>
+
+
+{% include "form_template.html" %}
+
+{% endblock %}
