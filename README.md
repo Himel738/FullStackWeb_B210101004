@@ -507,7 +507,3 @@ Complete a Simple TO-Do App using JS
 </details>
 
 ---
-
-
-
-
