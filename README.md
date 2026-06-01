@@ -503,6 +503,7 @@ This folder contains my JavaScript basics practice and learning journey. It incl
 ### 🔹 Day - 04
 <details>
 <summary>View Details</summary
+                       
 Complete a Simple TO-Do App using JS
 </details>
 
