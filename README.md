@@ -503,11 +503,61 @@ This folder contains my JavaScript basics practice and learning journey. It incl
 ### 🔹 Day - 04
 <details>
 <summary>View Details</summary
+                       
 Complete a Simple TO-Do App using JS
 </details>
 
 ---
 
+### 🔹 Day - 05
+<details>
+<summary>View Details</summary
+                       
+- What is Django & History_Features of Django
+- Building Django Apps, Models, Views and Template
 
+</details>
 
+---
 
+### 🔹 Day - 06
+<details>
+<summary>View Details</summary
+                       
+- Form and Crud Essentials
+
+</details>
+
+---
+
+### 🔹 Day - 07
+<details>
+<summary>View Details</summary
+                       
+- Templates & Middleware Mastery
+
+</details>
+
+---
+
+## Week - 04
+
+### 🔹 Day - 01
+<details>
+<summary>View Details</summary
+                       
+- Mastering Database and Relationships
+
+</details>
+
+---
+
+### 🔹 Day - 02
+<details>
+<summary>View Details</summary
+                       
+- User Authentication and Session Management
+
+</details>
+
+---
