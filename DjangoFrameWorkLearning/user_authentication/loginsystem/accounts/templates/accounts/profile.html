@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .profile-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 500px;
+            padding: 50px 40px;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 30px;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 45px;
+            color: white;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .welcome-text {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .profile-info {
+            margin-bottom: 35px;
+        }
+
+        .info-item {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .info-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .info-label {
+            font-size: 12px;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .info-value {
+            font-size: 16px;
+            color: #333;
+            word-break: break-all;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        button, a.btn {
+            flex: 1;
+            min-width: 120px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .btn-logout {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-logout:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+            transform: translateY(-2px);
+        }
+
+        .user-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #999;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 480px) {
+            .profile-container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            button, a.btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <div class="avatar">👤</div>
+            <h1>Welcome, {{ user.username }}!</h1>
+            <p class="welcome-text">You're successfully logged in</p>
+        </div>
+
+        <div class="user-stats">
+            <div class="stat">
+                <div class="stat-value">✓</div>
+                <div class="stat-label">Account Active</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">🔒</div>
+                <div class="stat-label">Verified</div>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-item">
+                <span class="info-label">Username</span>
+                <span class="info-value">{{ user.username }}</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Email Address</span>
+                <span class="info-value">{{ user.email }}</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Account Status</span>
+                <span class="info-value">Active</span>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button class="btn-logout" onclick="document.getElementById('logoutForm').submit();">Logout</button>
+            <a href="{% url 'password_change' %}" class="btn btn-secondary">Change Password</a>
+        </div>
+
+        <form id="logoutForm" method="post" action="{% url 'logout' %}" style="display:none;">
+            {% csrf_token %}
+        </form>
+    </div>
+</body>
+</html>
