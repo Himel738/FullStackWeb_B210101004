@@ -561,3 +561,34 @@ Complete a Simple TO-Do App using JS
 </details>
 
 ---
+
+### 🔹 Day - 03
+<details>
+<summary>View Details</summary
+                       
+# - Start The Full Functional Industry Level Blog Project - https://github.com/Himel738/django-blog
+
+- Creating SuperUser
+- Implementing Template
+- Design Homepage and Configure Static File
+- Setup Git With gitignore
+
+</details>
+
+---
+
+### 🔹 Day - 04
+<details>
+<summary>View Details</summary
+                       
+# - Start The Full Functional Industry Level Blog Project
+
+- Category Model
+- Media File Configuration
+- Blog Model
+- Prepopulate Slugs
+- Admin title List Display
+
+</details>
+
+---
