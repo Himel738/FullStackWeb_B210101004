@@ -581,13 +581,33 @@ Complete a Simple TO-Do App using JS
 <details>
 <summary>View Details</summary
                        
-# - Start The Full Functional Industry Level Blog Project
+# - Progress-02
 
 - Category Model
 - Media File Configuration
 - Blog Model
 - Prepopulate Slugs
 - Admin title List Display
+
+</details>
+
+---
+
+### 🔹 Day - 05
+<details>
+<summary>View Details</summary
+                       
+# - Progress-03
+
+- Add Demo Categories and Blog Post
+- Display Featured Post on HomePage
+- Display Recent Articles
+- Foreign Key Relationships
+- Post By Category
+- Custom Error Page
+- Template Inheritance
+- Context Processor
+- Linking Post By Category URL
 
 </details>
 
