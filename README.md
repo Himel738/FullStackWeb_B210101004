@@ -733,6 +733,22 @@ Complete a Simple TO-Do App using JS
 
 ---
 
+### 🔹 Day - 06
+<details>
+<summary>View Details</summary
+
+# - Start The Rest API of Django - https://github.com/Himel738/django-blog
+
+# - Progress - 10
+                       
+- Forget Password Feature
+- Email Verification
+- Improvement on editor and User Dashboard with some modification
+  
+</details>
+
+---
+
 
 
 
