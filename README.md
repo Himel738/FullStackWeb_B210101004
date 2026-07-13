@@ -561,3 +561,194 @@ Complete a Simple TO-Do App using JS
 </details>
 
 ---
+
+### 🔹 Day - 03
+<details>
+<summary>View Details</summary
+                       
+# - Start The Full Functional Industry Level Blog Project - https://github.com/Himel738/django-blog
+
+- Creating SuperUser
+- Implementing Template
+- Design Homepage and Configure Static File
+- Setup Git With gitignore
+
+</details>
+
+---
+
+### 🔹 Day - 04
+<details>
+<summary>View Details</summary
+                       
+# - Progress-02
+
+- Category Model
+- Media File Configuration
+- Blog Model
+- Prepopulate Slugs
+- Admin title List Display
+
+</details>
+
+---
+
+### 🔹 Day - 05
+<details>
+<summary>View Details</summary
+                       
+# - Progress-03
+
+- Add Demo Categories and Blog Post
+- Display Featured Post on HomePage
+- Display Recent Articles
+- Foreign Key Relationships
+- Post By Category
+- Custom Error Page
+- Template Inheritance
+- Context Processor
+- Linking Post By Category URL
+
+</details>
+
+---
+
+### 🔹 Day - 06
+<details>
+<summary>View Details</summary
+                       
+# - Progress-04
+
+- Single Blog Page Setup
+- Build About Us and Social Links
+- Display Social Links On Blog Pages
+- Search Feature
+
+</details>
+
+---
+
+### 🔹 Day - 07
+<details>
+<summary>View Details</summary
+                       
+# - Progress-05
+
+- Registration Setup
+- User Creation Form
+- Register Functinality
+- Login Feature
+
+</details>
+
+---
+
+## Week - 05
+
+### 🔹 Day - 01
+<details>
+<summary>View Details</summary
+
+# - Progress - 06
+                       
+- Authentication and Authorization
+- Groups
+- Editor and Manager Dashboards
+- Dashboard URL Configuration
+- Dashboard Design
+- Blogs and Category Count
+- Login Required
+- Category Table
+- Add Category
+- Edit Category
+- Delete Category
+
+</details>
+
+---
+
+### 🔹 Day - 02
+<details>
+<summary>View Details</summary
+
+# - Progress - 07
+                       
+- Blog Post Table
+- Add New Post
+- Add Post - Assign Logged-in-user to author
+- Add Post With Unique Slug
+- Edit Blog Post
+- Delete Blog Post
+- Login Required
+
+</details>
+
+---
+
+### 🔹 Day - 03
+<details>
+<summary>View Details</summary
+
+# - Progress - 08
+                       
+- Manager Dashboard
+- Conditionally Show the USer
+- Add User
+- Add User Feature
+- Prevent Editor Perform
+- Edit User Form
+- Edit User Functionality
+- Delete User Functionality
+
+</details>
+
+---
+
+### 🔹 Day - 04
+<details>
+<summary>View Details</summary
+
+# - Progress - 09
+                       
+- Display Comment
+- Create Comment form
+- Add Comment
+- Allow Only Authrize User to Write Comment
+
+</details>
+
+---
+
+### 🔹 Day - 05
+<details>
+<summary>View Details</summary
+
+# - Progress - 10
+                       
+- Forget Password Feature
+- Email Verification
+- Improvement on editor and User Dashboard with some modification
+  
+</details>
+
+---
+
+### 🔹 Day - 06
+<details>
+<summary>View Details</summary
+
+# - Start The Rest API of Django - https://github.com/Himel738/django-blog
+
+# - Progress - 10
+                       
+- Forget Password Feature
+- Email Verification
+- Improvement on editor and User Dashboard with some modification
+  
+</details>
+
+---
+
+
+
+
