@@ -737,17 +737,70 @@ Complete a Simple TO-Do App using JS
 <details>
 <summary>View Details</summary
 
-# - Start The Rest API of Django - https://github.com/Himel738/django-blog
+# - Start The Rest API of Django:
 
 # - Progress - 10
                        
-- Forget Password Feature
-- Email Verification
-- Improvement on editor and User Dashboard with some modification
+- Web Application Endpoint
+- Simple API Endpoint
+- Create Model
+- Manual Serialization
+- Serializers
   
 </details>
 
 ---
+
+### 🔹 Day - 07
+<details>
+<summary>View Details</summary
+
+
+# - Progress - 11
+                       
+- Function-BAsed View Get Method
+- Sorting Data Using Serializers
+- Get A single Object Primart Key-BAsed Operation
+- Update Operation on Student
+- Delete Operation
+  
+</details>
+
+---
+
+## Week - 06
+
+### 🔹 Day - 01
+<details>
+<summary>View Details</summary
+
+# - Progress - 12
+                       
+- Class BAsed View Function
+- Employee Model
+- Employee Serializers
+- Class Base View- Get All Employee
+- Class Base View- Creating Employee
+- Update and Delete Employee
+
+</details>
+
+---
+
+### 🔹 Day - 02
+<details>
+<summary>View Details</summary
+
+# - Progress - 13
+                       
+- Mixins Overview
+- Generics Overview
+- Viewsets Introduction
+
+</details>
+
+---
+
 
 
 
